@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">HHU镖局</string>
+    <string name="other">不支持</string>
+    <string name="blank"> </string>
+    <string name="textview_welcome1_value">您</string>
+    <string name="textview_welcome2_value">的</string>
+    <string name="textview_welcome3_value">快</string>
+    <string name="textview_welcome4_value">递</string>
+    <string name="textview_welcome5_value">帮</string>
+    <string name="textview_welcome6_value">手</string>
+
+    <string name="edittext_start1_hint">请输入账号</string>
+    <string name="edittext_strat2_hint">请输入密码</string>
+    <string name="textview_start1_value">新用户注册</string>
+    <string name="textview_start2_value">忘记密码</string>
+
+
+    <string name="textview_register1_value">账号:</string>
+    <string name="textview_register2_value">字母和数字组合,4到8位</string>
+    <string name="textview_register3_value">密码:</string>
+    <string name="textview_register4_value">字母和数字组合,4到8位</string>
+    <string name="textview_register5_value">确认密码:</string>
+    <string name="textview_register6_value">两次密码要一致</string>
+    <string name="button_register1_value">注册</string>
+    <string name="textview_register7_value">让我们现在开始!</string>
+    <string name="textview_register8_value">快递常用号码:</string>
+    <string name="textview_register9_value">中国大陆11位号码</string>
+
+    <string name="menu_main_community_tilte">广场</string>
+    <string name="menu_main_fms_tilte">发布</string>
+    <string name="menu_main_mine_tilte">我的</string>
+
+    <string name="edittext_main_fms1_hint">收件人姓名</string>
+    <string name="edittext_main_fms2_hint">预送地址</string>
+    <string name="edittext_main_fms3_hint">取件码</string>
+    <string name="radiobutton_main_fms1_value">四食堂</string>
+    <string name="radiobutton_main_fms2_value">南门菜鸟</string>
+    <string name="radiobutton_main_fms3_value">八舍下</string>
+    <string name="radiobutton_main_fms4_value">妈妈驿站</string>
+    <string name="button_main_fms1_value">发布取件</string>
+    <string name="textview_dialog_fms0_value">确认发布?</string>
+    <string name="textview_dialog_fms1_value">取消</string>
+    <string name="textview_dialog_fms2_value">确认</string>
+    <string name="textview_dialog_text_value2">请按要求填写</string>
+
+    <string name="textview_mian_fms1_value">注:赏金默认为¥1.5</string>
+
+    <string name="textview_main_mine1_value">个人基本信息</string>
+    <string name="textview_main_mine2_value">账户:</string>
+    <string name="textview_main_mine3_value">手机:</string>
+    <string name="textview_main_mine4_value">学校:</string>
+    <string name="textview_main_mine5_value">身份:</string>
+    <string name="textview_main_mine8_value">河海大学</string>
+    <string name="textview_main_mine9_value">本科生</string>
+    <string name="textview_main_mine6_value">待定</string>
+    <string name="textview_main_mine7_value">待定</string>
+    <string name="button_main_mine1_value">我的发布</string>
+    <string name="button_main_mine2_value">我的接单</string>
+    <string name="button_main_mine3_value">退出登录</string>
+    <string name="textview_dialog_mine0_value">确认退出登录?</string>
+    <string name="textview_dialog_mine1_value">取消</string>
+    <string name="textview_dialog_mine2_value">确认</string>
+
+    <string name="textview_main_mineout1_value">我的发布</string>
+    <string name="textview_main_minein1_value">我的接单</string>
+    <string name="textview_item_minein1_value">订单号：</string>
+    <string name="textview_item_minein2_value">取件处：</string>
+    <string name="textview_item_minein3_value">取件码：</string>
+    <string name="textview_item_minein4_value">送货处：</string>
+    <string name="textview_item_minein5_value">收货人姓名：</string>
+    <string name="textview_item_minein6_value">发布人手机：</string>
+    <string name="textview_item_minein7_value">订单状态：</string>
+    <string name="textview_item_minein8_value"> </string>
+    <string name="textview_item_minein9_value"> </string>
+    <string name="textview_item_minein10_value"> </string>
+    <string name="textview_item_minein11_value"> </string>
+    <string name="textview_item_minein12_value"> </string>
+    <string name="textview_item_minein13_value"> </string>
+    <string name="textview_item_minein14_value"> </string>
+    <string name="button_item_minein1_value">告知送达</string>
+
+    <string name="textview_item_mineout1_value">订单号：</string>
+    <string name="textview_item_mineout2_value">接单人ID：</string>
+    <string name="textview_item_mineout3_value">接单人手机：</string>
+    <string name="textview_item_mineout4_value">订单状态：</string>
+    <string name="textview_item_mineout5_value"> </string>
+    <string name="textview_item_mineout6_value"> </string>
+    <string name="textview_item_mineout7_value"> </string>
+    <string name="textview_item_mineout8_value"> </string>
+    <string name="button_item_mineout1_value">撤销发布</string>
+    <string name="button_item_mineout2_value">确认收货</string>
+
+    <string name="button_item_community1_value">确认接单</string>
+    <string name="textview_item_community1_value">订单号：</string>
+    <string name="textview_item_community2_value">取件处：</string>
+    <string name="textview_item_community3_value">送货处：</string>
+    <string name="textview_item_community4_value">酬金：</string>
+    <string name="textview_item_community5_value"> </string>
+    <string name="textview_item_community6_value"> </string>
+    <string name="textview_item_community7_value"> </string>
+    <string name="textview_item_community8_value">¥1.5</string>
+    <string name="image_before">before</string>
+    <string name="image_after">after</string>
+    <string name="textview_dialog_text0">输入您的新密码(4到8位英文或数字)</string>
+    <string name="button_main_minedrawer1_value">修改密码</string>
+    <string name="textview_main_minedrawer0_value">更多功能,尽请期待</string>
+    <string name="textview_main_minedrawer_value">开发人员:朱强强,许一航,许家俊,宋其诚,姜钧宜,熊力,苗凯龙</string>
+    <string name="textview_dialog_start1_value">算了,弃号</string>
+    <string name="textview_dialog_start2_value">QQ联系</string>
+    <string name="textview_dialog_start3_value">电话联系</string>
+    <string name="textview_dialog_start0_value">请联系数据库管理员查询密码</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

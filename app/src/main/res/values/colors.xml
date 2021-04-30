@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="textviewcolor_welcome3">#6370B1</color>
+    <color name="textviewcolor_welcome4">#494BB5</color>
+    <color name="textviewcolor_welcome5">#27419E</color>
+    <color name="textviewcolor_welcome6">#2B1D7C</color>
+    <color name="textviewcolor_start1_after">#461F201F</color>
+    <color name="textviewcolor_start1_before">#85171616</color>
+    <color name="button_register1_before">#2A57B3</color>
+    <color name="button_register1_after">#164681</color>
+    <color name="button_register1_cannot">#50565C</color>
+    <color name="white">#FFFCFC</color>
+    <color name="navigation_text_before">#757B83</color>
+    <color name="navigation_text_after">#2196F3</color>
+    <color name="dialog_text_blue">#6A9ACF</color>
+    <color name="dialog_text_red">#F44336</color>
+
+
+
+
+
+
+</resources>

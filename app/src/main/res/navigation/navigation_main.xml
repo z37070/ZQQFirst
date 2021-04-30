@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/menu_main_fms">
+    <fragment
+        android:id="@+id/menu_main_fms"
+        android:name="com.example.teamwork.Main.MainFms.MainFmsFragment"
+        android:label="@string/blank"
+        tools:layout="@layout/fragment_main_fms" />
+
+    <fragment
+        android:id="@+id/menu_main_community"
+        android:name="com.example.teamwork.Main.MainCommunity.MainCommunityFragment"
+        android:label="@string/blank"
+        tools:layout="@layout/fragment_main_community" />
+
+    <fragment
+        android:id="@+id/menu_main_mine"
+        android:name="com.example.teamwork.Main.MainMine.MainMineFragment"
+        android:label="@string/blank"
+        tools:layout="@layout/fragment_main_mine" >
+        <action
+            android:id="@+id/action_menu_main_mine_to_main_minein"
+            app:destination="@id/main_minein"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_menu_main_mine_to_main_mineout"
+            app:destination="@id/main_mineout"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/main_minein"
+        android:name="com.example.teamwork.Main.MainMine.MainMinein.MainMineinFragment"
+        android:label="fragment_main_minein"
+        tools:layout="@layout/fragment_main_minein" />
+    <fragment
+        android:id="@+id/main_mineout"
+        android:name="com.example.teamwork.Main.MainMine.Mainmineout.MainMineoutFragment"
+        android:label="fragment_main_mineout"
+        tools:layout="@layout/fragment_main_mineout" />
+</navigation>

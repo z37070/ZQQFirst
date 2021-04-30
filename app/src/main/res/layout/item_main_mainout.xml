@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="3dp"
+    card_view:cardMaxElevation="5dp"
+    android:layout_margin="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textview_item_mineout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_item_mineout1_value"
+            android:textColor="#939292"
+            android:textSize="12sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline78"
+            card_view:layout_constraintStart_toStartOf="@+id/guideline70"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline72" />
+
+        <TextView
+            android:id="@+id/textview_item_mineout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_item_mineout2_value"
+            android:textSize="15sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline79"
+            card_view:layout_constraintStart_toStartOf="@+id/guideline77"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline78" />
+
+        <TextView
+            android:id="@+id/textview_item_mineout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_item_mineout3_value"
+            android:textSize="15sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline80"
+            card_view:layout_constraintStart_toStartOf="@+id/guideline77"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline79" />
+
+        <TextView
+            android:id="@+id/textview_item_mineout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_item_mineout4_value"
+            android:textColor="@color/textviewcolor_welcome3"
+            android:textSize="19sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline81"
+            card_view:layout_constraintStart_toStartOf="@+id/guideline77"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline80" />
+
+        <TextView
+            android:id="@+id/textview_item_mineout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_item_mineout5_value"
+            android:textColor="#939292"
+            android:textSize="12sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline78"
+            card_view:layout_constraintStart_toEndOf="@+id/textview_item_mineout1"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline72" />
+
+        <TextView
+            android:id="@+id/textview_item_mineout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_item_mineout6_value"
+            android:textSize="15sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline79"
+            card_view:layout_constraintStart_toEndOf="@+id/textview_item_mineout2"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline78" />
+
+        <TextView
+            android:id="@+id/textview_item_mineout7"
+            android:textColor="@drawable/textview_item_mineinout"
+            android:background="@drawable/textviewunderline_item_mineinout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_item_mineout7_value"
+            android:textSize="15sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline80"
+            card_view:layout_constraintStart_toEndOf="@+id/textview_item_mineout3"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline79" />
+
+        <TextView
+            android:id="@+id/textview_item_mineout8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_item_mineout8_value"
+            android:textColor="@color/textviewcolor_welcome3"
+            android:textSize="19sp"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline81"
+            card_view:layout_constraintStart_toEndOf="@+id/textview_item_mineout4"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline80" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintGuide_percent="0.15" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            card_view:layout_constraintGuide_percent="0.065" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            card_view:layout_constraintGuide_percent="0.935" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintGuide_percent="0.07" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            card_view:layout_constraintGuide_percent="0.19" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            card_view:layout_constraintGuide_percent="0.36" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            card_view:layout_constraintGuide_percent="0.53" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            card_view:layout_constraintGuide_percent="0.73" />
+
+        <Button
+            android:id="@+id/button_item_mineout1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_item_mineout1"
+            android:text="@string/button_item_mineout1_value"
+            android:textColor="#fff"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline75"
+            card_view:layout_constraintEnd_toStartOf="@+id/guideline76"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline81" />
+
+        <Button
+            android:id="@+id/button_item_mineout2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_item_minein1"
+            android:text="@string/button_item_mineout2_value"
+            android:textColor="#fff"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline75"
+            card_view:layout_constraintEnd_toStartOf="@+id/guideline82"
+            card_view:layout_constraintTop_toTopOf="@+id/guideline81" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintGuide_percent="0.93" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintGuide_percent="0.7" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:background="#cecece"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline78"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageview_item_mineout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/other"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline78"
+            card_view:layout_constraintStart_toStartOf="@+id/guideline77"
+            card_view:srcCompat="@drawable/image_item_mineout" />
+
+        <Button
+            android:id="@+id/button_item_mineout3"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/button_item_mineinout"
+            android:text="@string/blank"
+            card_view:layout_constraintBottom_toTopOf="@+id/guideline78"
+            card_view:layout_constraintEnd_toStartOf="@+id/guideline82"
+            card_view:layout_constraintStart_toStartOf="@+id/guideline82" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

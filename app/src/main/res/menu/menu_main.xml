@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_main_fms"
+        android:icon="@drawable/image_main_fms"
+        android:title="@string/menu_main_fms_tilte" />
+    <item
+        android:id="@+id/menu_main_community"
+        android:icon="@drawable/image_main_community"
+        android:title="@string/menu_main_community_tilte" />
+    <item
+        android:id="@+id/menu_main_mine"
+        android:icon="@drawable/image_main_mine"
+        android:title="@string/menu_main_mine_tilte" />
+</menu>
